@@ -1,13 +1,60 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  background-color: #1A1B21;
+  padding: 60px 30px;
+  justify-content: center;
+  width: 0;
+  min-width: 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #161619;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: white;
+}
+
+h3 {
+  color: #F3BF99;
+}
+
+h4 {
+  color: #DCDCDC;
+}
+
+.profilePicture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.name, .job, .buttons{
+  text-align: center;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.emailButton, .linkedInButton{
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+
+.emailButton{
+  background-color: white;
+}
+
+.linkedInButton{
+  background-color: dodgerblue;
+  color: white;
 }
