@@ -18,8 +18,6 @@
 
 ## About The Project
 
-![Screen Shot](src/images/react-icon-small.png)
-
 This app was made to teach me basic JSX using React to display some of the content that I already have on my CV. This was done without any guidance from third party resources except for the React Docs.
 
 ## Built With
